@@ -1,0 +1,33 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+video{
+  width: 400px;
+  border-radius: 1em;
+  margin: 30px;
+}
+
+button{
+  padding: 10px 20px;
+  border-radius: 1em;
+  border: 1px solid white;
+  background-color: cyan;
+  font-weight: bold;
+}
+button:active{
+  scale: 1.05;
+}
+
+:picture-in-picture{
+  border-radius: 1em;
+}
